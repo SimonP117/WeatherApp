@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simon\'s Weather App</string>
+    <string name="temperature_label">The temperature in Montreal is</string>
+    <string name="temperature_value">[XX]</string>
+    <string name="degree_label">°</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="city_value">[city]</string>
+    <string name="description_value">[description]</string>
+    <string name="maxtemp_value">[xx]</string>
+    <string name="mintemp_value">[xx]</string>
+    <string name="maxtemp_label">MAX:</string>
+    <string name="mintemp_label">MIN:</string>
+    <string name="forecast_label">Forecast</string>
+    <string name="day_value">[day]</string>
+    <string name="description_forecast_value">[description]</string>
+
+</resources>
