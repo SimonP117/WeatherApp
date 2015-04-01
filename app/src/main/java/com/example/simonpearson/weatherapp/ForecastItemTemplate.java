@@ -60,7 +60,7 @@ public class ForecastItemTemplate extends ArrayAdapter<DailyForecast>
         Calendar calendar = Calendar.getInstance();
         int day = calendar.get(Calendar.DAY_OF_WEEK);
 
-        switch ((day + distanceFromToday + 1) % 7) {
+        switch (((day + distanceFromToday) % 7) + 1) {
             case Calendar.MONDAY:
                 return "MON";
             case Calendar.TUESDAY:
